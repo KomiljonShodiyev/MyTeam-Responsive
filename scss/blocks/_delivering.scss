@@ -1,0 +1,96 @@
+/*delivering section start*/
+.delivering-section {
+    padding: 140px 0;
+    background-color: rgb(0, 64, 71);
+    background-image: url("../../images/delivering-bg-img.png");
+    background-repeat: no-repeat;
+
+}
+
+.delivering{
+    max-width: 1079px;
+    margin-left: 50px;
+}
+.delivering-title {
+    text-align: center;
+    @include textStyle($FS:48px, $FW:700, $LH:48px, $MB:56px, $CLR:$white-clr);
+}
+.delivering-content-wrapper {
+    margin-bottom: 56px;
+    margin-left: -18px; 
+    @include display($items:center, $space:start, $gap:80px);
+    
+}
+.delivering-persons-img {
+    margin-left: 135px;
+}
+
+.delivering-section-img {
+    margin-left: 118px;
+}
+.delivering-text {
+    @include textStyle($FS:15px, $FW:600, $LH:25px, $MB:24px, $CLR:$white-clr);
+    text-align: center;
+}
+.delivering-strong {
+    @include textStyle($FS:18px, $FW:700, $LH:28px, $MB:0px, $CLR:rgb(121, 200, 199));
+    text-align: center;
+    
+}
+.delivering-second-text{
+    @include textStyle($FS:13px, $FW:500, $LH:18px, $MB:32px, $CLR:$white-clr);
+    text-align: center;
+}
+/*delivering section end*/
+
+/*Tablet*/
+@media (max-width:906px){
+    .delivering{
+        max-width: 488px;
+        margin-left: 175px;
+    }
+    .delivering-tittle {
+        text-align: center;
+        @include textStyle($FS:32px, $FW:700, $LH:32px, $MB:48px, $CLR:$white-clr);
+    }
+    .delivering-content-wrapper {
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .delivering-content{
+        max-width: 573px;
+    }
+    .delivering-persons-img {
+        margin-left: 13px;
+    }
+    
+    .delivering-section-img {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width:580px){
+    .delivering{
+        max-width: 100%;
+    }
+    .delivering-title {
+        text-align: center;
+        @include textStyle($FS:32px, $FW:700, $LH:32px, $MB:48px, $CLR:$white-clr);
+    }
+    .delivering-content-wrapper {
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .delivering-content{
+        max-width: 573px;
+    }
+    .delivering-persons-img {
+        margin-left: 13px;
+    }
+    
+    .delivering-section-img {
+        margin-left: 0px;
+    }
+}

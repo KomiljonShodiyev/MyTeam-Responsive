@@ -1,0 +1,82 @@
+/* manage-stayling start */
+.manage-section {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-color: #012F34;
+    background-image: url(../../images/manage-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100px 244px;
+    background-position: right bottom;
+}
+.manage-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.manage-wrapper-title {
+    width: 445px;
+}
+.manage-inline {
+    width: 50px;
+    height: 4px;
+    margin-bottom: 54px;
+    display: inline-block;
+    background-color: #F67E7E;
+}
+.manage-title {
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.manage-list{
+    padding-top: 58px;
+}
+.manage-itim {
+    width: 540px;
+    flex-direction: column;
+}
+.manage-itim + .manage-itim{
+    margin-top: 32px;
+}
+.manage-itim-block{
+    display: flex;
+}
+.manage-itim-li{
+    display: flex;
+}
+.manage-itim-card{
+    margin-left: 23px;
+}
+.manage-itim-title {
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color:#F67E7E;
+}
+.manage-itim-text {
+    margin-top: 16px;
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.teams-itim-title{
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color:#F67E7E;
+}
+.teams-itim-text{
+    width: 445px;
+    margin-top: 16px;
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+/* manage-stayling end */

@@ -1,0 +1,64 @@
+.site-header {
+    padding: 73px 0 ;
+}
+.header {
+    @include display($items:center, $space:space-between, $gap:0px);
+}
+.header__logo-navbar-wrapper {
+    @include display($items:center, $space:start, $gap:80px);
+}
+.header__logo-link {
+    display: inline-block;
+}
+.hamburger-btn{
+    display: none;
+    text-decoration: none;
+}
+.header__list {
+    @include display($items:center, $space:start, $gap:40px);
+}
+.header__link {
+    @include textStyle($FS:18x, $FW:600, $LH:28px, $MB:0px, $CLR:$white-clr);
+}
+.header__contact-link {
+    @include btnStyle($W:153px, $PY:10px, $BorderColor:$white-clr, $BgColor:transparent, $BtnFS:18px, $BtnFW:600, $BtnLH:28px,$BtnMB:0px, $BtnTextColor:$white-clr, $HoverBG:$white-clr, $HoverColor:$green-clr);
+}
+//tablet-start
+@media only screen and (max-width:800px){
+    .site-header {
+        padding: 64px 0 112px;
+    }
+    .header__logo-img{
+        width: 128px;
+        height: 32px;
+    }   
+    .header__logo-wrapper{
+        @include display($items:center, $space:start, $gap:48px);
+    }
+}
+//tablet-end
+
+//mobile start
+@media only screen and (max-width:600px){
+.site-header {
+    padding: 48px 0 80px;
+}
+.header__logo-img{
+    width: 128px;
+    height: 32px;
+}   
+.header__logo-wrapper{
+    @include display($items:center, $space:start, $gap:48px);
+}
+.header__contact-link {
+    display: none;
+}
+.header__link{
+    display: none;
+}
+.header__hamburger-link{
+    display: block;
+}
+}
+//mobile end
+
